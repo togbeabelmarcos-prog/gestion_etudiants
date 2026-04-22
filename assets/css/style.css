@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    margin: 0;
+    padding: 40px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* centre tout horizontalement */
+}
+
+/* TITRES */
+h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* FORMULAIRE */
+form {
+    background: #ffffff;
+    padding: 20px;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+}
+
+/* INPUTS */
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* BOUTON */
+button {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+/* TABLEAU */
+table {
+    width: 80%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* EN-TÊTES */
+th {
+    background: #007bff;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+/* CELLULES */
+td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* LIGNES ALTERNÉES */
+tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+/* LIENS */
+a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
